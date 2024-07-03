@@ -7,7 +7,7 @@ FROM node:18-alpine
 WORKDIR /app
 
 # ETAPE 2 : COPIE DU FICHIER DANS L'IMAGE
-COPY package.json .
+COPY package*.json ./ 
 
 # ETAPE 3 : INSTALLATION DES DEPENDANCES & MISE A JOUR DES PACKAGES
 RUN npm install
