@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import "./index.css";
 import Home from "./pages/HomePage";
 import Contact from "./pages/HomePage";
+import News from "./pages/NewsPage.jsx";
 
 
 const router = createBrowserRouter([
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/actus",
+        element: <News/>,
       },
     ],
   },
