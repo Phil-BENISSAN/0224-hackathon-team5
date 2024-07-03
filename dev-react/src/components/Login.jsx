@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/forms.css";
+import { sendData } from "../utils/fetchApi";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -8,11 +9,13 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const user = { email, password };
+    sendData("/auth/login", user, "POST");
   };
 
   return (
     <main>
       <section className="form">
+        <h1>Connexion</h1>
         <form onSubmit={handleSubmit}>
           <label htmlFor="email">E-mail</label>
           <input

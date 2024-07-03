@@ -6,6 +6,17 @@ main {
   & .form {
     grid-column-start: 1;
     grid-column-end: 2;
+
+    & h1 {
+      color: #000;
+    }
+
+    & form {
+      width: 50%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   & section:last-of-type {

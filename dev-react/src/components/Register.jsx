@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/forms.css";
+import { sendData } from "../utils/fetchApi";
 
 function Register() {
   const [pseudo, setPseudo] = useState("");
@@ -9,11 +10,13 @@ function Register() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const user = { pseudo, email, password };
+    sendData("/auth/register", user, "POST");
   };
 
   return (
     <main>
       <section className="form">
+        <h1>S'inscrire</h1>
         <form onSubmit={handleSubmit}>
           <label htmlFor="pseudo">Pseudo</label>
           <input
