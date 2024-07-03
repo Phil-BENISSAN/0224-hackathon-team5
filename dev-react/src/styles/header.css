@@ -1,3 +1,33 @@
+.header{
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"Inter", sans-serif;;
+}
+.logo{
+    margin-left: 2rem;
+    font-size: 3rem;
+    color: black;
+}
+.onglet{
+    display:flex;
+    align-items: center;
+}
+.features{
+    display: flex;
+   margin-right: 2rem; 
+   color: black;
+}
 .try{
     background: linear-gradient(#ec5460,#ed53d2);
+    padding:0.7rem;
+    border-radius:10px ;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    
+}
+.try:active{
+    scale: 0.95;
 }
