@@ -1,0 +1,12 @@
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem; /* Gap between elements */
+    justify-content: space-evenly;
+    line-height: 2.5rem; /* Line height */
+}
+
+
+footer {
+    background-color: black;
+}
