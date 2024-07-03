@@ -1,7 +1,14 @@
+import '../styles/header.css'
+import { Link } from 'react-router-dom';
+
+
 export default function Header() {
   return (
     <header>
-      <h1>hi</h1>
+     <Link
+     to="/actus">
+      Fil d'actus
+     </Link>
     </header>
   );
 }
