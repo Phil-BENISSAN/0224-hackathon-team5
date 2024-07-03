@@ -1,0 +1,15 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+
+  & .form {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  & section:last-of-type {
+    grid-column-start: 2;
+    background-color: #ee53da;
+  }
+}

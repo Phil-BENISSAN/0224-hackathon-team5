@@ -1,5 +1,14 @@
+import "../styles/forms.css";
+
 function Login() {
-  return <div>Login</div>;
+  return (
+    <main>
+      <section className="form">
+        <div>Login</div>
+      </section>
+      <section></section>
+    </main>
+  );
 }
 
 export default Login;
