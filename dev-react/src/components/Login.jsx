@@ -13,7 +13,7 @@ function Login() {
   };
 
   return (
-    <main>
+    <main className="form-page-wrapper">
       <section className="form">
         <h1>Connexion</h1>
         <form onSubmit={handleSubmit}>

@@ -8,6 +8,19 @@ from fastapi import FastAPI
 import json
 import uvicorn
 
+# -------------------------------------------------   CONFIGURATION CORS   ------------------------------------------------------
+
+origins = [
+    "http://localhost:8080",
+    # Vous pouvez ajouter d'autres origines si nécessaire
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app = FastAPI(docs_url="/documentation")        #instanciation d'un objet fastapi et de la doc
 
