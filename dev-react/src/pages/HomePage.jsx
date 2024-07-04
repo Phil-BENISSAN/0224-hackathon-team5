@@ -4,6 +4,7 @@ import "../styles/homePage.css";
 import "../styles/header.css";
 import "../styles/footer.css";
 import data from "../data/actu.json";
+import FadeInSection from "../components/FadeInSection";
 
 import logoSrc from "../assets/BiskeepWhite.png";
 import imgLanding from "../assets/landing.png";
@@ -52,16 +53,16 @@ export default function Home() {
               <button className="features try">Essayer gratuitement</button>
             </Link>
           </section>
-          <section className="actu-section-homepage">
-            <h2>
-              <span className="gradient-text">Toute l'actualité e-sport</span>
-            </h2>
-            <img className="" src={gozen} alt={article.title} />
-            <div className="textContainerMain">
+          <FadeInSection>
+            <section className="actu-section-homepage">
+              <h2>
+                <span className="gradient-text ">Toute l'actualité e-sport</span>
+              </h2>
+              <img className="" src={gozen} alt={article.title} />
               <h2 className="h2ArticleMain">{article.title}</h2>
-              <p>{article.description}</p>
-            </div>
-          </section>
+              <p className="pArticleMain">{article.description}</p>
+            </section>
+          </FadeInSection>
         </main>
         <footer className="">
           <div className="img-socials-container">
