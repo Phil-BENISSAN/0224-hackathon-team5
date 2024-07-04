@@ -95,10 +95,16 @@ export default function News() {
             </div>
           </article>
         </section>
-        <aside className="aside">
-          <video src="./src/assets/video.mp4" controls width="300"></video>
-          <p>🌈 10 LGBTQ+ games to play this Pride Month!</p>
-        </aside>
+        <section>
+          <aside className="aside">
+            <video src="./src/assets/video.mp4" controls width="300"></video>
+            <p>🌈 10 LGBTQ+ games to play this Pride Month!</p>
+          </aside>
+          <aside className="aside">
+            <video src="./src/assets/video.mp4" controls width="300"></video>
+            <p>🌈 10 LGBTQ+ games to play this Pride Month!</p>
+          </aside>
+        </section>
       </span>
     </>
   );
