@@ -1,7 +1,16 @@
 import { Outlet } from "react-router-dom";
 
-function DashboardPage() {
-  return <Outlet />;
+function Dashboard() {
+  return (
+    <>
+      <div>
+        <Link className="logo" to="/actus">
+          Biskeep
+        </Link>
+      </div>
+      <Outlet />;
+    </>
+  );
 }
 
-export default DashboardPage;
+export default Dashboard;

@@ -5,10 +5,13 @@ import App from "./App.jsx";
 import "./index.css";
 import Home from "./pages/HomePage";
 import Contact from "./pages/HomePage";
-import News from "./pages/NewsPage.jsx";
+import News from "./components/NewsPage.jsx";
 import AuthPage from "./pages/AuthPage.jsx";
 import Register from "./components/Register.jsx";
 import Login from "./components/Login.jsx";
+import Dashboard from "./pages/DashboardPage.jsx";
+import GamesRank from './components/GamesRank';
+import TeamsRank from './components/TeamsRank';
 
 const router = createBrowserRouter([
   {
@@ -35,20 +38,22 @@ const router = createBrowserRouter([
             element: <Login />,
           },
         ],
+      },
+      {
         path: "/dashboard",
-        element: <DashboardPage />,
+        element: <Dashboard />,
         children: [
           {
-            path: "/actus",
+            path: "actus",
             element: <News />,
           },
           {
-            path: "/gamesrank",
-            element: <GamesRankPage />,
+            path: "gamesrank",
+            element: <GamesRank />,
           },
           {
-            path: "/teamsrank",
-            element: <TeamsRankPage />,
+            path: "teamsrank",
+            element: <TeamsRank />,
           },
         ],
       },
