@@ -41,7 +41,7 @@ export default function Home() {
         </h1>
         <img className="imgLanding" src={imgLanding} alt="" />
         <h2 className='landing-text-h2'>Ouvrez la voie à une nouvelle ère de <br />compétition équitable.</h2>
-        <Link>
+        <Link to="/auth/register">
         <button className="features try">Essayer gratuitement</button>
         </Link>
       </section>

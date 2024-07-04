@@ -17,29 +17,29 @@ function Dashboard() {
       <nav className="sidebar-nav">
         <ul>
           <li>
-            <Link to="/" className="sidebar-link">
+            <Link to="/dashboard/actus" className="sidebar-link">
               <AiOutlineHome className="icons" />
               Accueil
             </Link>
           </li>
           <li>
-            <Link to="/equipes" className="sidebar-link">
+            <Link to="/dashboard/teams" className="sidebar-link">
               <AiOutlineTeam className="icons" /> Equipes
             </Link>
           </li>
           <li>
-            <Link to="/statistiques" className="sidebar-link">
+            <Link to="/dashboard/stats" className="sidebar-link">
               <IoStatsChartSharp className="icons" /> Statistiques
             </Link>
           </li>
 
           <li>
-            <Link to="/evenements" className="sidebar-link">
+            <Link to="/dashboard/events" className="sidebar-link">
               <IoMdCalendar className="icons" /> Events
             </Link>
           </li>
           <li>
-            <Link to="/statistiques" className="sidebar-link">
+            <Link to="/dashboard/about" className="sidebar-link">
               <IoIosCall className="icons" /> A propos
             </Link>
           </li>
