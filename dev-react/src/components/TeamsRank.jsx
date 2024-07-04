@@ -4,8 +4,6 @@ import "../styles/teamsRank.css";
 export default function TeamsRank() {
 	return (
 		<>
-			<h1>hi</h1>
-			<h2>Top équipes inclusives</h2>
 			<div className="teamDivCss">
 				{teamsData.map((team, index) => (
 					<div key={index} className="teamDivMap">
