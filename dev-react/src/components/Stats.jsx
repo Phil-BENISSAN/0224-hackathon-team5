@@ -92,6 +92,7 @@ export default function Stats() {
 										labelLine={false}
 										outerRadius={300}
 										fill="#8884d8"
+										className="piePie"
 										dataKey="value">
 										{currentData.map((entry, index) => (
 											<Cell
