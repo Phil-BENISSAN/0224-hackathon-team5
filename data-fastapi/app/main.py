@@ -5,8 +5,13 @@
 
 import pandas as pd
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 import json
 import uvicorn
+
+
+app = FastAPI(docs_url="/documentation")        #instanciation d'un objet fastapi et de la doc
+
 
 # -------------------------------------------------   CONFIGURATION CORS   ------------------------------------------------------
 
@@ -21,10 +26,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-app = FastAPI(docs_url="/documentation")        #instanciation d'un objet fastapi et de la doc
-
-
 
 ##############################################################################################
 ###################################### LA DOC ##############################################
