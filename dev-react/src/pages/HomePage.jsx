@@ -69,7 +69,7 @@ export default function Home() {
         <footer className="">
           <div className="img-socials-container">
             <Link to="/">
-              <img className="" src={logoSrc} alt="retour à l'accueil" />
+              <img className="footer-biskeep" src={logoSrc} alt="retour à l'accueil" />
             </Link>
             <div className="card">
               <a href="#" className="socialContainer containerOne">
