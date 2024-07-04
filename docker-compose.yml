@@ -7,7 +7,7 @@ services:
     ports:
       - "8050:8050"
 
-  # SERVICE FASTAPI 
+  # SERVICE FASTAPI
   fastapi:
     build: 
       context: ./data-fastapi

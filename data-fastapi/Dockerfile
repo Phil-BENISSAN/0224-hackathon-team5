@@ -29,8 +29,6 @@ RUN rm -rf /var/log/*
 RUN apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* \ /var/cache/apt/archives/* /tmp/* /var/tmp/*
 
 COPY . .
-
-
 # ______________________________________________________________________________________________________________________
 
 
