@@ -3,7 +3,6 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	display: inline-block; /* Ensure the span is inline-block for background-clip to work */
-	overflow: hidden;
 }
 
 .landing-page {

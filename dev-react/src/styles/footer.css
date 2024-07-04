@@ -73,7 +73,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     transition-duration: .3s;
   }
   /* instagram*/
