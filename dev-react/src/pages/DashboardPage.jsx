@@ -10,6 +10,7 @@ import { IoMdCalendar } from "react-icons/io";
 
 function Dashboard() {
   return (
+    <>
     <div className="sidebar">
       <div className="sidebar-logo">
         <img src={logoSrc} alt="Biskeep Logo" />
@@ -51,8 +52,9 @@ function Dashboard() {
         </Link>
       </div>
     </div>
+  <Outlet />
+  </>
   );
-  <Outlet />;
 }
 
 export default Dashboard;
