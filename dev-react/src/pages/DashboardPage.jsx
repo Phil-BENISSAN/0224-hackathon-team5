@@ -14,7 +14,7 @@ function Dashboard() {
 		<>
 			<div className="sidebar">
 				<div className="sidebar-logo">
-					<img src={logoSrc} alt="Biskeep Logo" />
+					<h1>Biskeep</h1>
 				</div>
 				<nav className="sidebar-nav">
 					<ul>
