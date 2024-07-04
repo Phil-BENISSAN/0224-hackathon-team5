@@ -1,14 +1,23 @@
 import teamsData from "../data/hackathonAdrien.json";
+import { useState } from "react";
 import "../styles/teamsRank.css";
 
 export default function TeamsRank() {
+	const [isOpen, setIsOpen] = useState(false);
+
+	const handleOpenDiv = () => {
+		console.log("suuuuiiiii");
+		setIsOpen(!isOpen);
+	};
+
 	return (
 		<section className="big-section">
 			<div className="teamDivCss">
+				<h2>Equipe les plus inclusivité</h2>
 				{teamsData.map((team, index) => (
-					<div key={index} className="teamDivMap">
+					<div key={index} className="teamDivMap" onClick={handleOpenDiv}>
 						<img src={team.logo} alt={team.nom} className="teamImg" />
-						<p>{team.nom}</p>
+						<h3>{team.nom}</h3>
 						<div>
 							<p>Indice d'inclusivité : {team.inclusivity_index}</p>
 							<p>Popularité : {team.popularity}</p>
