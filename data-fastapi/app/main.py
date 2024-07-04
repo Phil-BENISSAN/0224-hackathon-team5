@@ -14,6 +14,18 @@ app = FastAPI(docs_url="/documentation")        #instanciation d'un objet fastap
 
 
 ##############################################################################################
+###################################### LA DOC ##############################################
+##############################################################################################
+
+@app.get('/')
+
+def game():                                                                        #doc
+
+
+    return "/doc pour la doc"
+
+
+##############################################################################################
 ###################################### LES JEUX ##############################################
 ##############################################################################################
 
@@ -40,7 +52,7 @@ def game():
 
 
 
-#df_structure = pd.read_csv('structures.csv',sep=',')                               #import
+df_structure = pd.read_csv('structures.csv',sep=',')                               #import
 
 
 @app.get('/structure')
@@ -67,16 +79,16 @@ def select(columns:str):
     pour selectionner tout les champs faites * (comme en sql)
 
     Exemples:
-        /structure/nom    selectionnera tous les noms
-        /structure/nom%description  selectionnera les noms et les descriptions 
-        /structure/*    selectionnera tout les champs             
+        /structure/select=nom    selectionnera tous les noms
+        /structure/select=nom%description  selectionnera les noms et les descriptions 
+        /structure/select=*    selectionnera tout les champs             
     """
 
-    data = json.loads(df_structure[columns.split('%')].to_json(orient = "records"))     
-
-
-    return data
-
+    if columns == '*':
+        data = json.loads(df_structure.to_json(orient = "records"))
+    
+    else:
+        data = json.loads(df_structure[columns.split('%')].to_json(orient = "records"))
 
 
 
@@ -87,12 +99,13 @@ def fonction(columns:str, column2:str, condition:str):
     Selectionne un ou plusieurs champs selon une condition sur un champ
     pour les sctructures
     Exemples:
-    /structure/select=*/where=name==Vitalis 
+    /structure/select=*/where=nom==Vitalis 
         renvoie toutes les champs de la structure Vitalis
     """
 
     if columns == '*':
         data = json.loads(df_structure.loc[df_structure[column2] == condition,:].to_json(orient = "records"))
+    
     else:
         data = json.loads(df_structure.loc[df_structure[column2] == condition, columns.split('%')].to_json(orient = "records"))     
 
@@ -108,54 +121,54 @@ def fonction(columns:str, column2:str, condition:str):
 
 
 
-#df_evenements = pd.read_csv('evenements.csv',sep=',')                                  #import
+# df_evenements = pd.read_csv('evenements.csv',sep=',')                                  #import
 
 
 
-@app.get('/evenement')
+# @app.get('/evenement')
 
-def select(columns:str) :                                                                 #all
-    """
-    Selectionne les evenements
+# def select(columns:str) :                                                                 #all
+#     """
+#     Selectionne les evenements
     
-    """
+#     """
 
-    data = json.loads(df_evenements.to_json(orient = "records"))
-
-
-    return data
+#     data = json.loads(df_evenements.to_json(orient = "records"))
 
 
-
-@app.get('/evenement/select={columns}')                                                  #select
-def select(columns:str) :
-    """
-    Selectionne un champ
-    Même principe que pour les structures
-    pour selectionner plusieurs champs ils doivent être séparées par %
-    * pour tout selectionner
-
-    """
-
-    data = json.loads(df_structure[columns.split('%')].to_json(orient = "records"))
-
-
-    return data
+#     return data
 
 
 
-@app.get('/evenement/select={columns}/where={column2}=={condition}')                       #where
+# @app.get('/evenement/select={columns}')                                                  #select
+# def select(columns:str) :
+#     """
+#     Selectionne un champ
+#     Même principe que pour les structures
+#     pour selectionner plusieurs champs ils doivent être séparées par %
+#     * pour tout selectionner
 
-def fonction(columns:str, column2:str, condition:str):
-    """
-    Selectionne un champ selon une condition sur un autre champ
-    Même principe que pour les structures
-    """
+#     """
 
-    data = json.loads(df_evenements.loc[df_evenements[column2] == condition,columns.split('%')].to_json(orient = "records"))     
+#     data = json.loads(df_structure[columns.split('%')].to_json(orient = "records"))
 
 
-    return data
+#     return data
+
+
+
+# @app.get('/evenement/select={columns}/where={column2}=={condition}')                       #where
+
+# def fonction(columns:str, column2:str, condition:str):
+#     """
+#     Selectionne un champ selon une condition sur un autre champ
+#     Même principe que pour les structures
+#     """
+
+#     data = json.loads(df_evenements.loc[df_evenements[column2] == condition,columns.split('%')].to_json(orient = "records"))     
+
+
+#     return data
 
 
 
