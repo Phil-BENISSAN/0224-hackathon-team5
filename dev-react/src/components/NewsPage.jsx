@@ -4,7 +4,7 @@ export default function News() {
   return (
     <>
       <span className="main-newspage">
-        <section>
+        <section className="big-section">
           <article className="articleMain">
             <img
               className="imgArticleMain"
@@ -96,7 +96,7 @@ export default function News() {
           </article>
         </section>
         <aside className="aside">
-          <video src="./src/assets/video.mp4" controls width="400"></video>
+          <video src="./src/assets/video.mp4" controls width="300"></video>
           <p>🌈 10 LGBTQ+ games to play this Pride Month!</p>
         </aside>
       </span>
