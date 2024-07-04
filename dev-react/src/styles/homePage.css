@@ -1,41 +1,41 @@
 .gradient-text {
-  background: linear-gradient(#ea5f64, #ee53da);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block; /* Ensure the span is inline-block for background-clip to work */
+	background: linear-gradient(#ea5f64, #ee53da);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block; /* Ensure the span is inline-block for background-clip to work */
 }
 
 .landing-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 50vh;
-  margin: 0; /* Réinitialise les marges par défaut */
-  z-index: 2;
-  margin-bottom: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 50vh;
+	margin: 0; /* Réinitialise les marges par défaut */
+	z-index: 2;
+	margin-bottom: 5rem;
 }
 
 .landing-text-h2 {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .imgLanding {
-  position: absolute;
-  top: 10%;
-  width: 120%;
-  height: 30rem;
-  z-index: 1;
+	position: absolute;
+	top: 10%;
+	width: 120%;
+	height: 30rem;
+	z-index: -1;
 }
 
 .spaced-word,
 .gradient-text {
-  display: inline-block;
-  margin-right: 1rem; /* Adjust this value to increase or decrease word spacing */
+	display: inline-block;
+	margin-right: 1rem; /* Adjust this value to increase or decrease word spacing */
 }
 
 h1 {
-  word-spacing: 0; /* Reset word spacing to default */
-  font-size: 3rem;
+	word-spacing: 0; /* Reset word spacing to default */
+	font-size: 3rem;
 }
