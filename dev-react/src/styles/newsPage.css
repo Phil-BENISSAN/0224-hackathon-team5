@@ -53,7 +53,6 @@ body {
 .aside {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px,
 		rgba(0, 0, 0, 0.1) 0px -12px 30px, rgba(0, 0, 0, 0.1) 0px 4px 6px,
 		rgba(0, 0, 0, 0.1) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -63,8 +62,53 @@ body {
 	border-radius: 5%;
 	background-color: #f8f8f8;
 	margin: 1rem;
+	justify-content: space-around;
+	align-items: center;
+
 }
 
 .big-section {
 	flex-grow: 2;
 }
+
+
+.row-team-logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center	;
+	margin-bottom: 1rem;
+	text-align: left;
+	justify-content: space-around;
+}
+
+.team-logo {
+	width: auto;
+	margin-right: 10px;
+}
+
+.team-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	text-align: left;
+  }
+  
+  .team-info img {
+	width: auto;
+	margin-left: 10px;
+  }
+  
+  .team-info h3, .team-info p {
+	margin: 0;
+	font-size: 1rem;
+  }
+  
+  .team-info p {
+	font-size: 0.9rem;
+  }
+  
+  .team-info .text-container {
+	display: flex;
+	flex-direction: column;
+  }
+  
