@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import "./index.css";
 import Home from "./pages/HomePage";
 import Contact from "./pages/HomePage";
-import News from "./pages/NewsPage.jsx";
+import News from "./components/NewsPage.jsx";
 import AuthPage from "./pages/AuthPage.jsx";
 import Register from "./components/Register.jsx";
 import Login from "./components/Login.jsx";

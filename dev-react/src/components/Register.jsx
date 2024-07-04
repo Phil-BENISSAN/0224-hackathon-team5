@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/forms.css";
+import { Link } from "react-router-dom";
 import { sendData } from "../utils/fetchApi";
 
 function Register() {
@@ -42,9 +43,11 @@ function Register() {
             required
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button type="submit" onClick={handleSubmit}>
+          <Link to="/dashboard/actus">
+          <button type="submit">
             S'inscrire
           </button>
+          </Link>
         </form>
       </section>
       <section></section>

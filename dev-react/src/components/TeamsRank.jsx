@@ -1,18 +1,15 @@
 import teamsData from "../data/teamsRank.json";
+import "../styles/teamsRank.css";
 
 export default function TeamsRank() {
-	console.log(teamsData);
 	return (
 		<>
-			{/* Début : Dashboard : Barre de gauche */}
 			<h1>hi</h1>
-			{/* Fin : Dashboard : Barre de gauche */}
-
-			{/* Début élément central de la page */}
 			<h2>Top équipes inclusives</h2>
-			<div className="team">
+			<div className="teamDivCss">
 				{teamsData.map((team, index) => (
-					<div key={index}>
+					<div key={index} className="teamDivMap">
+						<img src={team.img} alt={team.title} className="teamImg" />
 						<p>{team.title}</p>
 						<div>
 							<p>Indice d'inclusivité : {team.inclusivity_index}</p>
@@ -22,8 +19,6 @@ export default function TeamsRank() {
 					</div>
 				))}
 			</div>
-
-			{/* Fin élément central de la page */}
 		</>
 	);
 }
