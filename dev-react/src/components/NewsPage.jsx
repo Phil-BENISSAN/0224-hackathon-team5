@@ -2,12 +2,14 @@ import "../styles/newsPage.css";
 import React from "react";
 import data from "../data/actu.json";
 import teamsAside from "../data/hackathonAdrien.json";
+import gozen from "../assets/gozen.webp";
+
 export default function News() {
   return (
     <>
       <span className="main-newspage">
         <section className="big-section">
-          {Object.values(data).map((item) => (
+        {Object.values(data).slice(1, 10).map((item) => (
             <article
               key={item.id}
               className={item.id === 0 ? "articleMain" : "articleOthers"}

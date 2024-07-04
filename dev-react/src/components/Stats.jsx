@@ -1,17 +1,58 @@
 import "../styles/stats.css";
-import teamDataFull from "../data/hackathonAdrien.json";
-import { ResponsiveContainer, PieChart, Pie, Legend } from "recharts";
+import teamData from "../data/dataChart.json";
+import { useState } from "react";
+import {
+	ResponsiveContainer,
+	PieChart as RechartsPieChart,
+	Pie,
+	Cell,
+	Tooltip,
+} from "recharts";
 
-const data = [
-	{ name: "Group A", value: 400 },
-	{ name: "Group B", value: 300 },
-	{ name: "Group C", value: 300 },
-	{ name: "Group D", value: 200 },
+const data1 = [
+	{ name: "Homme", value: 67 },
+	{ name: "Femme", value: 33 },
 ];
 
+const data2 = [
+	{ name: "Homme", value: 45 },
+	{ name: "Femme", value: 55 },
+];
+
+const data3 = [
+	{ name: "Homme", value: 80 },
+	{ name: "Femme", value: 20 },
+];
+
+const data4 = [
+	{ name: "Homme", value: 50 },
+	{ name: "Femme", value: 50 },
+];
+
+const data5 = [
+	{ name: "Homme", value: 60 },
+	{ name: "Femme", value: 40 },
+];
+
+const data6 = [
+	{ name: "Homme", value: 30 },
+	{ name: "Femme", value: 70 },
+];
+
+const data7 = [
+	{ name: "Homme", value: 55 },
+	{ name: "Femme", value: 45 },
+];
+
+const dataSets = [data1, data2, data3, data4, data5, data6, data7];
+const COLORS = ["#0000FF", "#FF0000"];
+
 export default function Stats() {
-	const teamData = teamDataFull.splice(0, 8);
-	console.log(teamData);
+	const [currentData, setCurrentData] = useState(data1);
+
+	const handleImageClick = (index) => {
+		setCurrentData(dataSets[index]);
+	};
 
 	return (
 		<main>
@@ -19,7 +60,10 @@ export default function Stats() {
 				<div className="statsGrid">
 					<div className="statsGridTeam">
 						{teamData.map((team, index) => (
-							<div key={index} className="statsGridMapImg">
+							<div
+								key={index}
+								className="statsGridMapImg"
+								onClick={() => handleImageClick(index)}>
 								<img src={team.logo} alt="statsGridMapImgFull" />
 							</div>
 						))}
@@ -28,12 +72,29 @@ export default function Stats() {
 					<div className="statsGridTop2">3</div>
 					<div className="statsGridTop3">4</div>
 					<div className="statsGridGraph">
-						{" "}
 						<div style={{ width: "100%", height: 780 }}>
 							<ResponsiveContainer>
-								<PieChart>
-									<Pie dataKey="value" data={data} fill="#8884d8" label />
-								</PieChart>
+								<RechartsPieChart>
+									<Pie
+										data={currentData}
+										cx="50%"
+										cy="50%"
+										className="piePie"
+										label
+										labelLine={false}
+										outerRadius={300}
+										fill="#8884d8"
+										dataKey="value">
+										{currentData.map((entry, index) => (
+											<Cell
+												key={`cell-${index}`}
+												className="piePieCirlce"
+												fill={COLORS[index % COLORS.length]}
+											/>
+										))}
+									</Pie>
+									<Tooltip />
+								</RechartsPieChart>
 							</ResponsiveContainer>
 						</div>
 					</div>
