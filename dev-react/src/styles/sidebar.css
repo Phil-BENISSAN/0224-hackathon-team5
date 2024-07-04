@@ -75,3 +75,7 @@
 	font-size: 0.7em;
 	font-weight: 600;
 }
+
+.sidebar-link.active {
+	background-color: #ffffff; /* Arrière-plan blanc pour le lien actif */
+}
