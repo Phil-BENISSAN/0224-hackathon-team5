@@ -23,10 +23,6 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "/actus",
-        element: <News />,
-      },
-      {
         path: "/auth",
         element: <AuthPage />,
         children: [
@@ -37,6 +33,22 @@ const router = createBrowserRouter([
           {
             path: "login",
             element: <Login />,
+          },
+        ],
+        path: "/dashboard",
+        element: <DashboardPage />,
+        children: [
+          {
+            path: "/actus",
+            element: <News />,
+          },
+          {
+            path: "/gamesrank",
+            element: <GamesRankPage />,
+          },
+          {
+            path: "/teamsrank",
+            element: <TeamsRankPage />,
           },
         ],
       },
