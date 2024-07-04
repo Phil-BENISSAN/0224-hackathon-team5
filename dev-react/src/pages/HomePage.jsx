@@ -3,13 +3,11 @@ import { Link } from "react-router-dom";
 import "../styles/homePage.css";
 import "../styles/header.css";
 import "../styles/footer.css";
-import data from "../../../data-fastapi/app/actu.json"; // Ajustez le chemin en fonction de la localisation de votre fichier JSON
 
 import logoSrc from "../assets/BiskeepWhite.png";
 import imgLanding from "../assets/landing.png";
 
 export default function Home() {
-	const article = data["0"];
 	return (
 		<div>
 			<div className="background-container">

@@ -1,0 +1,74 @@
+[
+	{
+		"index": 0,
+		"nom": "Team Vitality",
+		"description": "Team Vitality fait partie des meilleures équipes européennes et présente le plus gros palmarès au niveau français avec notamment un 2 titres de champion du monde sur Rocket League et 1 Major CS:GO. Sur ce dernier, Vitality est sur une année phénoménale avec des victoires au IEM, au Gamers8, au Blast Fall Finals et bien évidemment au Major de Paris.. L’équipe est active sur RL, LoL, CS2, EA FC, Valorant et CoD Mobile. En 2023, Vitality a lancé sa première équipe féminine, les French bees.",
+		"logo": "https://gamingcampus.fr/wp-content/webp-express/webp-images/uploads/2022/08/600px-Team_Vitality_2023_darkmode.png.webp",
+		"inclusivity_index": "9.50/10",
+		"popularity": "9.50/10",
+		"nationality": "Française"
+	},
+	{
+		"index": 1,
+		"nom": "Team BDS",
+		"description": "Team BDS fait partie du TOP 3 des plus grosses équipes francophones et se fait une grosse place au niveau européen et mondial en remportant notamment les Worlds de Rocket league en 2022, ils ont plus récemment sur se frayer un chemin en main event des worlds de LoL. La Team suisse est donc présente sur Rainbow Six : Siege, Rocket League, League of Legends, Fortnite, TrackMania, FIFA, Call of Duty et Valorant.",
+		"logo": "https://gamingcampus.fr/wp-content/webp-express/webp-images/uploads/2022/08/Team_BDS-1.png.webp",
+		"inclusivity_index": "9.40/10",
+		"popularity": "9.40/10",
+		"nationality": "Suisse"
+	},
+	{
+		"index": 2,
+		"nom": "Team GO",
+		"description": "Team GO, anciennement Gamers Origin, fait maintenant partie des meubles de l’esport français, bien que l’armoire a trophé ne soit pas remplie (quand même 2 fois champion LFL) GO reste une structure emblématique de la scène française qui a vu passer une quantité innombrable de joueurs sur pas moins de 13 jeux allants de LoL à Smash Bros en passant par Trackmania ou encore Hearthstone.",
+		"logo": "https://gamingcampus.fr/wp-content/webp-express/webp-images/uploads/2022/08/Logo-TeamGO.png.webp",
+		"inclusivity_index": "9.30/10",
+		"popularity": "9.30/10",
+		"nationality": "Française"
+	},
+	{
+		"index": 3,
+		"nom": "GameWard",
+		"description": "GameWard est une organisation professionnelle de sport électronique française basée à Boulogne-Billancourt qui possède actuellement des équipes sur LoL, Fortnite et TrackMania. La structure se développe au fil des années en proposant un environnement de travail complet dans leurs locaux pour les joueurs et a vu apparaître des partenariats de qualité comme avec l’équipementier « Le Coq Sportif ». Gameward a récemment vu apparaître un groupe de supporter nommés les Purple Humanoides.",
+		"logo": "https://fr.egamersworld.com/uploads/lol/teams/gameward-logo.png",
+		"inclusivity_index": "9.20/10",
+		"popularity": "9.20/10",
+		"nationality": "Française"
+	},
+	{
+		"index": 4,
+		"nom": "Izidream",
+		"description": "Fondée en 2019, Izidream est devenue une figure emblématique de l’esport français sur League of Legend, la petite équipe basée à Aix officie aussi sur Smash Bros, TFT et Trackmania. Au niveau français, le phoenix bleu du sud sera de retour en Div 2 de la Ligue Française de League of Legends et continuera certainement ses aller retour en division première dans le futur. ",
+		"logo": "https://gamingcampus.fr/wp-content/webp-express/webp-images/uploads/2022/08/2e76fb75-f92f-442c-9241-624be6bc17ac_ok2.png.webp",
+		"inclusivity_index": "9.10/10",
+		"popularity": "9.10/10",
+		"nationality": "Française"
+	},
+	{
+		"index": 5,
+		"nom": "BK ROG",
+		"description": "Résultat de la fusion de Bunker Esports et ROG de la marque ASUS en 2021, la team BK ROG est présente sur LoL, Smash Bros, EA FC, Fortnite et Street Fighter 5. À son lancement, BKRog annonçait vouloir faire le lien entre le Rap/La Musique et l’esport avec comme parrain Orelsan, cette promesse sera tenu tout au long de la saison avec des annonces faites pendant le concert de ce derniers ainsi que son apparition sur des affiches de matchs, mais aussi l’apparition du logo du label de rap “no limit” sur les maillots des joueurs. ",
+		"logo": "https://gamingcampus.fr/wp-content/webp-express/webp-images/uploads/2022/08/600px-BK_ROG_Esports_allmode.png.webp",
+		"inclusivity_index": "9.00/10",
+		"popularity": "9.00/10",
+		"nationality": "Française"
+	},
+	{
+		"index": 6,
+		"nom": "Zerance",
+		"description": "Zerance est une jeune équipe très motivé qui met en avant les valeurs du partage et de la solidarité notamment avec leur partenaire “L’équipage solidaire”, les pirates de Zerance se placent principalement sur Valorant avec une équipe masculine et une féminine, mais ils ont également tenté l’aventure sur LoL en récupérant le roster TPAA à la fermeture de ce dernier en plein milieu du Mastercard Nexus tour",
+		"logo": "https://gamingcampus.fr/wp-content/uploads/2022/08/zerance_logo_9f14b939-341f-41b0-8f7f-df643b484187.webp",
+		"inclusivity_index": "8.90/10",
+		"popularity": "8.90/10",
+		"nationality": "Française"
+	},
+	{
+		"index": 7,
+		"nom": "MCES",
+		"description": "MCES, fondée en 2018, est une équipe esport française qui se consacre à la promotion et au développement de l’esport amateur. Grâce à leur expertise et leur expérience, ils proposent une gamme de services pour accompagner les institutions souhaitant toucher la nouvelle génération à travers l’esport. Parmi ces services, on trouve la formation des encadrants, l’animation de lieux dédiés, l’accès à une plateforme de cours en ligne, la maintenance à distance des sections esport et le branding de ces sections.",
+		"logo": "https://gamingcampus.fr/wp-content/webp-express/webp-images/uploads/2022/08/LOGO-MCES-TEAM-BLANC-1-1.png.webp",
+		"inclusivity_index": "8.80/10",
+		"popularity": "8.80/10",
+		"nationality": "Française"
+	}
+]
