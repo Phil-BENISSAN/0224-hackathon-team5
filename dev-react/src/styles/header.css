@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family:"Inter", sans-serif;;
+    font-family:"Inter", sans-serif;
+    padding:0.5rem;
 }
 .logo{
     margin-left: 2rem;
