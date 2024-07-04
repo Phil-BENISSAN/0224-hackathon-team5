@@ -1,7 +1,7 @@
 {
   "0": {
     "id": 0,
-    "tilte": "Les équipes qualifiées pour les Masters Shanghai VCT 2024",
+    "title": "Les équipes qualifiées pour les Masters Shanghai VCT 2024",
     "description": "Du 23 mai au 9 juin, la Valo Arena, à Shanghai, accueille les Masters Shanghai du VCT 2024. Cet événement marquant le deuxième grand rendez-vous international de la saison 2024 verra les trois meilleures équipes de chaque ligue principale se mesurer les unes aux autres.",
     "sub_title": "Les équipes des Masters Shanghai VCT 2024",
     "sub_description": "Le deuxième rendez-vous international de la saison 2024 du Valorant Champions Tour est prévu pour les Masters de Shanghai. Se déroulant du 23 mai au 9 juin à la Valo Arena (Swiss Stage et une partie des playoffs) et à la Mercedes-Benz Arena (trois derniers jours pour les finales des playoffs), en Chine, les Masters Shanghai 2024 marquent une phase cruciale du VCT 2024. L'événement accueillera l'élite des équipes internationales dans une confrontation de haut niveau. Seules les équipes qui auront réussi à se classer parmi les trois premières de leur ligue respective lors du Stage 1 pourront prétendre à une place dans cette compétition internationale.",
@@ -10,7 +10,7 @@
   },
   "1": {
     "id": 1,
-    "tilte": "La Karmine Corp se qualifie pour le World Championship RLCS 2024",
+    "title": "La Karmine Corp se qualifie pour le World Championship RLCS 2024",
     "description": "La Karmine Corp est certaine de participer au World Championship RLCS 2024. Grâce à l'élimination d'Oxygen Esports lors du Swiss Stage du Major de Londres, l'équipe française s'assure une place dans le prestigieux tournoi mondial de Rocket League qui se tiendra en septembre prochain aux États-Unis.",
     "sub_title": "La Karmine Corp remercie FURIA",
     "sub_description": "Des résultats décevants lors des Open Qualifier 4 et 5 ont finalement eu raison de la qualification de la Karmine Corp pour le Major de Londres. Bien qu'elle ait terminé dans le top 16 de l'Open Qualifier 6 Europe, les résultats lors du Double Elimination Stage, avec les qualifications de Team Vitality, Gentle Mates, Team BDS et Oxygen Esports, ont anéanti les derniers espoirs de la KCorp. Avec 20 points de retard au classement général des RLCS EU Major 2, la Karmine Corp s'est retrouvé à la 8e position, loin des quatre premières places nécessaires pour une qualification directe.",
@@ -19,7 +19,7 @@
   },
   "2": {
     "id": 2,
-    "tilte": "Arbre et agenda des playoffs du LEC Summer Split 2024",
+    "titlee": "Arbre et agenda des playoffs du LEC Summer Split 2024",
     "description": "La saison régulière est terminée, les huit meilleures équipe de cette première étape vont maintenant s'affronter dans un format d'arbre à double élimination en Bo3 et Bo5. Retrouvez ici toutes les informations sur les playoffs du LEC Summer Split 2024, avec la répartition des équipes dans l'arbre, le planning et l'ensemble des résultats.",
     "sub_title": "PASSONS AU NIVEAU SUIVANT DANS CE LEC Summer SPLIT",
     "sub_description": "La saison régulière est maintenant terminée, et nous connaissons les noms des huit équipes qualifiées pour la phase des playoffs de ce LEC Summer 2024. Pour rappel, Riot Games a procédé a une mise à jour du format des segments compétitifs du LEC, fusionnant la phase de groupes et les playoffs. L'objectif est de simplifier le suivi de la compétition. Les séries best-of-3 et best-of-5 sont maintenues, avec une protection contre les répétitions de matchs dans le Lower Bracket. Ces brackets auront le même nombre de Bo3 et de Bo5 qu'auparavant.",
@@ -28,7 +28,7 @@
   },
   "3": {
     "id": 3,
-    "tilte": "Le point mercato du mois de mai",
+    "title": "Le point mercato du mois de mai",
     "description": "La période des transferts a cette année mis un peu de temps avant de débuter, mais nous voici partis pour de bon avec les premiers changements significatifs de roster post-major : la rédaction fait le point.",
     "sub_title": "perfecto chez Virtus, cloud9 dans le flou",
     "sub_description": "Denis \"electronic\" Sharipov a quitté Cloud9 pour rejoindre Virtus.pro. Le rifler russe aura donc passé moins d’un an au sein de la structure américaine, après son arrivée en juillet dernier aux côtés de Perfecto. Sur le papier, le roster de Cloud9 avait de quoi faire peur. Cependant, les résultats n’ont pas été à la hauteur des attentes. L’équipe n’a jamais réussi à trouver son rythme et à atteindre un niveau de jeu suffisant, ce qui avait premièrement conduit au départ de sh1ro.",
@@ -37,7 +37,7 @@
   },
   "4": {
     "id": 4,
-    "tilte": "beastcoast remporte le BLAST Manchester Major",
+    "title": "beastcoast remporte le BLAST Manchester Major",
     "description": "Vainqueurs 3 à 2 face à Team BDS, les  joueurs nord-Américains de beastcoast ont créé la surprise ce dimanche soir en devenant les nouveaux champions du Six Major.",
     "sub_title": "beastcoast l'emporte à la surprise générale",
     "sub_description": "La percée de ce roster états-unien fraîchement formé ne se sera jamais arrêtée. Après avoir surpris son monde en North America League et tout au long de la compétition, beastcoast a remporté avec faste le BLAST Manchester Major et s'est affirmée comme la meilleure équipe du moment : pour leur première LAN ensemble et le premier Major de leur écurie, on peut dire que les Américains ont frappé fort.",
@@ -46,7 +46,7 @@
   },
   "5": {
     "id": 5,
-    "tilte": "La Karmine Corp dévoile les Arènes, le complexe situé à Évry-Courcouronnes dont elle est résidente",
+    "title": "La Karmine Corp dévoile les Arènes, le complexe situé à Évry-Courcouronnes dont elle est résidente",
     "description": "Dans une nouvelle vidéo YouTube, la Karmine Corp dévoile les Arènes. Accompagnés d'Étoiles, Kotei et Kammeto nous font découvrir ce complexe de 3000 places situé à Évry-Courcouronnes qui sera entièrement dédié aux événements de la KCorp.",
     "sub_title": "Un petit tour du propriéraire des Arenes de la KCorp en compagnie de Kameto et Kotei",
     "sub_description": "La Karmine Corp vient de dévoiler une vidéo sur YouTube offrant un premier aperçu des Arènes, son nouveau terrain de jeu situé à Évry-Courcouronnes. Accompagnés d'Étoiles, Kotei et Kammeto, figures emblématiques de la KCorp, nous font découvrir ce complexe dédié aux futurs événements du Blue Wall.",
@@ -64,7 +64,7 @@
   },
   "7": {
     "id": 7,
-    "tilte": "L'Esport World Cup dévoile le calendrier hebdomadaire des tournois",
+    "title": "L'Esport World Cup dévoile le calendrier hebdomadaire des tournois",
     "description": "Riyad accueille cet été du 3 juillet au 25 août l'Esport World Cup, un événement majeur doté d'un cashprise de 60 millions de dollars. Plusieurs tournois vont se dérouler pendant ces 8 semaines, et voici le calendrier hebdomadaire des compétitions.",
     "sub_title": "HUIT SEMAINES DE COMPÉTITION NON-STOP",
     "sub_description": "L'Esports World Cup (EWC) 2024, une nouvelle compétition d'envergure sur le calendrier international de l'esport, se tiendra à Riyad, en Arabie Saoudite, du 3 juillet au 25 août. Cette première édition s'étend sur huit semaines et propose une dotation totale de plus de 60 millions de dollars. Cette somme se répartit entre 20 millions de dollars destinés aux clubs les plus performants dans un format de compétition inter-jeux, et 40 millions de dollars alloués aux diverses compétitions par jeu, aux prix des MVP, et aux phases de qualification.",
