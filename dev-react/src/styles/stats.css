@@ -1,0 +1,67 @@
+.big-section-stats {
+	padding-left: 12rem;
+}
+
+.statsGrid {
+	padding: 4rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.statsGridTeam {
+	grid-area: 1 / 1 / 6 / 2;
+	background-color: rgb(0, 0, 0);
+	border-radius: 0.5rem;
+	margin-right: 2rem;
+}
+.statsGridTop1 {
+	grid-area: 1 / 2 / 2 / 3;
+	background-color: red;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+	border-radius: 0.5rem;
+}
+.statsGridTop2 {
+	grid-area: 1 / 3 / 2 / 4;
+	background-color: green;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+	border-radius: 0.5rem;
+}
+.statsGridTop3 {
+	grid-area: 1 / 4 / 2 / 5;
+	background-color: yellow;
+	margin-bottom: 1rem;
+	border-radius: 0.5rem;
+}
+.statsGridGraph {
+	grid-area: 2 / 2 / 6 / 5;
+	background-color: brown;
+	border-radius: 0.5rem;
+}
+
+.statsGridTeam img {
+	display: flex;
+	flex-direction: column;
+	width: 5rem;
+}
+
+.statsGridMapImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1.5rem;
+	padding: 0.4rem;
+}
+
+.statsGridMapImg:active {
+	background-color: #ffb0f5;
+}
+
+.statsGridMapImg img {
+	margin-left: 0;
+}
+

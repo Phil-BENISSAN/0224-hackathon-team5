@@ -6,14 +6,13 @@ export default function TeamsRank() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const handleOpenDiv = () => {
-		console.log("suuuuiiiii");
 		setIsOpen(!isOpen);
 	};
 
 	return (
 		<section className="big-section">
 			<div className="teamDivCss">
-				<h2>Equipe les plus inclusivité</h2>
+				<h2>Equipes les plus inclusives</h2>
 				{teamsData.map((team, index) => (
 					<div key={index} className="teamDivMap" onClick={handleOpenDiv}>
 						<img src={team.logo} alt={team.nom} className="teamImg" />
