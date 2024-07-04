@@ -64,7 +64,7 @@
 }
 
 .statsGridMapImg:active,
-.statsGridMapImg:focus {
+.statsGridMapImg.selected {
 	background-color: #ffb0f5;
 	border-radius: 1.5rem;
 }
@@ -74,5 +74,5 @@
 }
 
 .piePie {
-	font-size: 3em;
+	font-size: 2em;
 }

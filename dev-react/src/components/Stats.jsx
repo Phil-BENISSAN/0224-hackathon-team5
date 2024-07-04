@@ -44,14 +44,21 @@ const data7 = [
 	{ name: "Femme", value: 45 },
 ];
 
-const dataSets = [data1, data2, data3, data4, data5, data6, data7];
+const data8 = [
+	{ name: "Homme", value: 95 },
+	{ name: "Femme", value: 5 },
+];
+
+const dataSets = [data1, data2, data3, data4, data5, data6, data7, data8];
 const COLORS = ["#0000FF", "#FF0000"];
 
 export default function Stats() {
 	const [currentData, setCurrentData] = useState(data1);
+	const [selectedIndex, setSelectedIndex] = useState(null);
 
 	const handleImageClick = (index) => {
 		setCurrentData(dataSets[index]);
+		setSelectedIndex(index);
 	};
 
 	return (
@@ -62,7 +69,9 @@ export default function Stats() {
 						{teamData.map((team, index) => (
 							<div
 								key={index}
-								className="statsGridMapImg"
+								className={`statsGridMapImg ${
+									selectedIndex === index ? "selected" : ""
+								}`}
 								onClick={() => handleImageClick(index)}>
 								<img src={team.logo} alt="statsGridMapImgFull" />
 							</div>
@@ -79,7 +88,6 @@ export default function Stats() {
 										data={currentData}
 										cx="50%"
 										cy="50%"
-										className="piePie"
 										label
 										labelLine={false}
 										outerRadius={300}
@@ -88,7 +96,6 @@ export default function Stats() {
 										{currentData.map((entry, index) => (
 											<Cell
 												key={`cell-${index}`}
-												className="piePieCirlce"
 												fill={COLORS[index % COLORS.length]}
 											/>
 										))}
