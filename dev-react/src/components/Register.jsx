@@ -1,5 +1,6 @@
 import { useState } from "react";
-import "../styles/forms.css";
+import "../styles/forms.css"; // Assurez-vous que le chemin est correct
+import { Link } from "react-router-dom";
 import { sendData } from "../utils/fetchApi";
 
 function Register() {
@@ -16,7 +17,7 @@ function Register() {
   return (
     <main className="form-page-wrapper">
       <section className="form">
-        <h1>S'inscrire</h1>
+        <h1 className="gradient-text">S'inscrire</h1>
         <form onSubmit={handleSubmit}>
           <label htmlFor="pseudo">Pseudo</label>
           <input
@@ -42,13 +43,16 @@ function Register() {
             required
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button type="submit" onClick={handleSubmit}>
+          <Link to="/dashboard/actus">
+          <button type="submit" className="register-button">
             S'inscrire
           </button>
+          </Link>
         </form>
+        <p>Déjà inscrit? <Link to="/auth/login" className="login-link">Connexion</Link></p>
       </section>
-      <section></section>
     </main>
   );
 }
+
 export default Register;

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../styles/forms.css";
 import { sendData } from "../utils/fetchApi";
+import { Link } from "react-router-dom";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -15,7 +16,7 @@ function Login() {
   return (
     <main className="form-page-wrapper">
       <section className="form">
-        <h1>Connexion</h1>
+        <h1  className="gradient-text">Connexion</h1>
         <form onSubmit={handleSubmit}>
           <label htmlFor="email">E-mail</label>
           <input
@@ -33,9 +34,11 @@ function Login() {
             required
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button type="submit" onClick={handleSubmit}>
-            S'inscrire
+           <Link to="/dashboard/actus">
+          <button type="submit" className="register-button">
+            Se connecter
           </button>
+          </Link>
         </form>
       </section>
       <section></section>

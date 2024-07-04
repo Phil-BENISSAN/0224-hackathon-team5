@@ -1,40 +1,70 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
 .main-newspage {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 100%;
-  padding: 2rem 0 0 7rem;
-  gap:5rem;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 2rem 0 0 0rem;
+	justify-content: space-between;
 }
-.imgArticleMain{
-  width: 42rem;
-  padding:1rem 0;
+
+.big-section {
+	padding-left: 18rem;
 }
-.textContainerMain{
-  width:42rem;
-}
+
+.articleMain,
 .articleOthers {
-  padding: 1rem;
-  display: flex;
-  align-items: flex-start;
-  padding:1rem 0;
+	margin-bottom: 2rem;
 }
-.textContainerOthers{
-  display: flex;
-  flex-direction: column;
-  max-width: 20rem;
-  padding:1rem;
-}
+
+.imgArticleMain,
 .imgArticleOthers {
-  width: 22rem;
+	width: 100%;
+	height: auto;
+	border-radius: 5%;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px,
+		rgba(0, 0, 0, 0.1) 0px -12px 30px, rgba(0, 0, 0, 0.1) 0px 4px 6px,
+		rgba(0, 0, 0, 0.1) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	margin-bottom: 1rem;
 }
+
+.textContainerMain,
+.textContainerOthers {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px,
+		rgba(0, 0, 0, 0.1) 0px -12px 30px, rgba(0, 0, 0, 0.1) 0px 4px 6px,
+		rgba(0, 0, 0, 0.1) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	padding: 1rem;
+	border-radius: 5%;
+	background-color: #f8f8f8;
+}
+
+.h2ArticleMain,
 .h2ArticleOthers {
-  font-size: 1.1rem;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
 }
+
 .pArticleOthers {
-  font-size: 1rem;
+	font-size: 0.9rem;
 }
+
 .aside {
-  grid-column-start: 2;
-  box-shadow: rgba(0, 0, 0, 0.10) 0px 20px 20px, rgba(0, 0, 0, 0.10) 0px -12px 30px, rgba(0, 0, 0, 0.10) 0px 4px 6px, rgba(0, 0, 0, 0.10) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  width: 40rem;  padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px,
+		rgba(0, 0, 0, 0.1) 0px -12px 30px, rgba(0, 0, 0, 0.1) 0px 4px 6px,
+		rgba(0, 0, 0, 0.1) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	width: 20rem;
+	padding: 1rem;
+	height: auto;
+	border-radius: 5%;
+	background-color: #f8f8f8;
+	margin: 1rem;
+}
+
+.big-section {
+	flex-grow: 2;
 }

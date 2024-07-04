@@ -1,0 +1,72 @@
+[
+	{
+		"title": "Karmine Corp",
+		"inclusivity_index": "8.25/10",
+		"popularity": "7.89/10",
+		"nationality": "Française",
+		"img": "/image27.png"
+	},
+	{
+		"title": "Team Vitality",
+		"inclusivity_index": "7.80/10",
+		"popularity": "9.20/10",
+		"nationality": "Française",
+		"img": "/image28.png"
+	},
+	{
+		"title": "G2 Esports",
+		"inclusivity_index": "8.00/10",
+		"popularity": "9.50/10",
+		"nationality": "Internationale",
+		"img": "/image29.png"
+	},
+	{
+		"title": "Fnatic",
+		"inclusivity_index": "7.75/10",
+		"popularity": "8.90/10",
+		"nationality": "Britannique",
+		"img": "/image31.png"
+	},
+	{
+		"title": "Rogue",
+		"inclusivity_index": "8.10/10",
+		"popularity": "8.30/10",
+		"nationality": "Américaine",
+		"img": "/image32.png"
+	},
+	{
+		"title": "MAD Lions",
+		"inclusivity_index": "8.35/10",
+		"popularity": "7.70/10",
+		"nationality": "Espagnole",
+		"img": "/image27.png"
+	},
+	{
+		"title": "Team Liquid",
+		"inclusivity_index": "8.20/10",
+		"popularity": "9.00/10",
+		"nationality": "Américaine",
+		"img": "/image28.png"
+	},
+	{
+		"title": "Cloud9",
+		"inclusivity_index": "7.90/10",
+		"popularity": "9.10/10",
+		"nationality": "Américaine",
+		"img": "/image29.png"
+	},
+	{
+		"title": "SK Gaming",
+		"inclusivity_index": "7.60/10",
+		"popularity": "8.40/10",
+		"nationality": "Allemande",
+		"img": "/image31.png"
+	},
+	{
+		"title": "Astralis",
+		"inclusivity_index": "8.00/10",
+		"popularity": "8.80/10",
+		"nationality": "Danoise",
+		"img": "/image27.png"
+	}
+]
