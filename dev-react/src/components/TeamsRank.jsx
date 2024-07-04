@@ -1,4 +1,4 @@
-import teamsData from "../data/teamsRank.json";
+import teamsData from "../data/hackathonAdrien.json";
 import "../styles/teamsRank.css";
 
 export default function TeamsRank() {
@@ -7,8 +7,8 @@ export default function TeamsRank() {
 			<div className="teamDivCss">
 				{teamsData.map((team, index) => (
 					<div key={index} className="teamDivMap">
-						<img src={team.img} alt={team.title} className="teamImg" />
-						<p>{team.title}</p>
+						<img src={team.logo} alt={team.nom} className="teamImg" />
+						<p>{team.nom}</p>
 						<div>
 							<p>Indice d'inclusivité : {team.inclusivity_index}</p>
 							<p>Popularité : {team.popularity}</p>

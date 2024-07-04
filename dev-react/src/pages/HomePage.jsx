@@ -7,6 +7,7 @@ import data from "../../../data-fastapi/app/actu.json"; // Ajustez le chemin en 
 
 import logoSrc from "../assets/BiskeepWhite.png";
 import imgLanding from "../assets/landing.png";
+import SwiperComponent from "../components/SwiperComponent.jsx";
 
 export default function Home() {
   const article = data["0"];

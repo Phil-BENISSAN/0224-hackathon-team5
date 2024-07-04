@@ -9,14 +9,15 @@
 	align-items: center;
 	margin: 1rem;
 	padding: 1rem;
-	background-color: #fcfcfc;
+	background-color: #ffb0f5;
 	-webkit-box-shadow: 5px 6px 24px 0px rgba(0, 0, 0, 0.3);
 	box-shadow: 5px 6px 24px 0px rgba(0, 0, 0, 0.3);
 	border-radius: 1rem;
+	margin-bottom: 3rem;
 }
 
 .teamDivCss .teamDivMap:hover {
-	background-color: #ffb0f5;
+	background-color: #fcfcfc;
 	transform: scale(0.95);
 	transition: all 0.2s ease-in-out;
 }

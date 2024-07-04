@@ -75,3 +75,20 @@ h1 {
 	background-color: rgba(255, 0, 255, 0.2); /* Couleur fuchsia avec opacité */
 	filter: blur(100px);
 }
+.card1{
+  display: flex;
+  width:80%;
+  border-radius: 10px;
+  margin-left: 7rem;
+  margin-bottom: 7rem;
+}
+.card-body{
+  padding: 1rem;
+}
+.card-title{
+padding:1rem;
+}
+.bigImg{
+  width:90%;
+  display: flex;
+}
