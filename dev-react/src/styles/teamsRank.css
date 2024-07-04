@@ -1,0 +1,27 @@
+.teamDivCss {
+	padding: 1rem;
+	margin: 0 2rem;
+}
+
+.teamDivCss .teamDivMap {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 1rem;
+	padding: 1rem;
+	background-color: #fcfcfc;
+	-webkit-box-shadow: 5px 6px 24px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 6px 24px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 1rem;
+}
+
+.teamDivCss .teamDivMap:hover {
+	background-color: #ffb0f5;
+	transform: scale(0.95);
+	transition: all 0.2s ease-in-out;
+}
+
+.teamDivCss .teamDivMap .teamImg {
+	width: 5rem;
+	height: 5rem;
+}
