@@ -22,7 +22,7 @@ app = FastAPI(docs_url="/documentation")        #instanciation d'un objet fastap
 def game():                                                                        #doc
 
 
-    return "/doc pour la doc"
+    return "/doc pour la documentation"
 
 
 ##############################################################################################
