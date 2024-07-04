@@ -14,7 +14,7 @@ function Register() {
   };
 
   return (
-    <main>
+    <main className="form-page-wrapper">
       <section className="form">
         <h1>S'inscrire</h1>
         <form onSubmit={handleSubmit}>
