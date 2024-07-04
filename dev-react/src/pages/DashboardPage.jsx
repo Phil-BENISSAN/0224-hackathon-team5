@@ -9,7 +9,7 @@ function Dashboard() {
 					Biskeep
 				</Link>
 			</div>
-			<Outlet />;
+			<Outlet />
 		</>
 	);
 }
