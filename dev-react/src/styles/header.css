@@ -5,6 +5,7 @@
 	align-items: center;
 	font-family: "Inter", sans-serif;
 	padding-top: 1rem;
+	margin: 0 4rem;
 }
 .logo {
 	margin-left: 2rem;
@@ -14,10 +15,10 @@
 .onglet {
 	display: flex;
 	align-items: center;
+	gap: 1rem;
 }
 .features {
 	display: flex;
-	margin-right: 2rem;
 	color: black;
 }
 .try {

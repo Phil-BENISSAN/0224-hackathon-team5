@@ -7,6 +7,7 @@ import { AiOutlineTeam } from "react-icons/ai";
 import { IoStatsChartSharp } from "react-icons/io5";
 import { IoIosCall } from "react-icons/io";
 import { IoMdCalendar } from "react-icons/io";
+import { CiLogout } from "react-icons/ci";
 
 function Dashboard() {
 	return (
@@ -47,8 +48,9 @@ function Dashboard() {
 					</ul>
 				</nav>
 				<div className="sidebar-footer">
-					<Link to="/logout" className="sidebar-link">
-						<p></p>Se déconnecter
+					<Link to="/" className="sidebar-link">
+						<CiLogout className="icons" />
+						<p className="paragraphSidebar">Se déconnecter</p>
 					</Link>
 				</div>
 			</div>
