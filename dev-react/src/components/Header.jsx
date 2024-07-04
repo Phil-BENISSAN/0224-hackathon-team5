@@ -14,12 +14,12 @@ export default function Header() {
         <Link className="link">
           <li className="features">Features</li>
         </Link>
-        <Link className="link">
+        <Link to="/auth/login" className="link">
           <li className="features">Connexion</li>
         </Link>
-      <Link className="link">
-        <button className="features try">Essayer gratuitement</button>
-      </Link>
+        <Link to="/auth/register" className="link">
+          <button className="features try">Essayer gratuitement</button>
+        </Link>
       </ul>
     </header>
   );
