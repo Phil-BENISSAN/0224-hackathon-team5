@@ -24,8 +24,14 @@
 }
 
 .eventsDiv:hover {
-	background-color: red;
 	transition: all 0.3s ease-in-out;
+	background: rgb(238, 83, 218);
+	background: linear-gradient(
+		235deg,
+		rgba(238, 83, 218, 1) 0%,
+		rgba(234, 95, 100, 1) 100%
+	);
+	color: white;
 }
 
 .eventsDiv h1 {
