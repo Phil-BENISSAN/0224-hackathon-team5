@@ -16,6 +16,7 @@ import redbull from "../assets/redbull.png";
 import sponsors from "../assets/sponsors.png";
 import ending from "../assets/ending.png";
 import teamsData from "../data/hackathonAdrien.json"; // Import des données JSON
+import reviewProof from "/Group3.svg";
 
 function scrollToElement(id) {
 	const element = document.getElementById(id);
@@ -108,6 +109,12 @@ export default function Home() {
 									Commencez dès maintenant
 								</button>
 							</Link>
+							<div className="reviewProofDiv">
+								<p>
+									<span>+300</span> équipes et participant(e)s
+								</p>
+								<img src={reviewProof} alt="" />
+							</div>
 						</section>
 					</FadeInSection>
 					<h2 className="actualite-esport">
