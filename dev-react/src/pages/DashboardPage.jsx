@@ -1,7 +1,9 @@
 import { Outlet, NavLink } from "react-router-dom";
 import "../styles/sidebar.css";
 import { AiOutlineHome, AiOutlineTeam } from "react-icons/ai";
-import { IoStatsChartSharp, IoIosCall, IoMdCalendar } from "react-icons/io";
+import { IoIosCall, IoMdCalendar } from "react-icons/io";
+import { IoStatsChart } from "react-icons/io5";
+
 import { CiLogout } from "react-icons/ci";
 
 function Dashboard() {
@@ -38,7 +40,7 @@ function Dashboard() {
 								className={({ isActive }) =>
 									isActive ? "sidebar-link active" : "sidebar-link"
 								}>
-								<IoStatsChartSharp className="icons" /> Statistiques
+								<IoStatsChart className="icons" /> Statistiques
 							</NavLink>
 						</li>
 						<li>
