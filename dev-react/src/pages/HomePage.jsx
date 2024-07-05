@@ -80,23 +80,25 @@ export default function Home() {
           </ul>
         </header>
         <main>
-          <section className="landing-page">
-            <h1>
-              <span className="spaced-word">Réinventez</span>
-              <span className="gradient-text"> l'e-sport</span>
-              <span className="spaced-word">avec</span>
-              <br />
-              <span className="gradient-text">l'inclusivité</span>
-            </h1>
-            <img className="imgLanding" src={imgLanding} alt="Landing" />
-            <h2 className="landing-text-h2">
-              Ouvrez la voie à une nouvelle ère de <br />
-              compétition équitable.
-            </h2>
-            <Link to="/auth/register">
-              <button className="features try">Essayer gratuitement</button>
-            </Link>
-          </section>
+          <FadeInSection>
+            <section className="landing-page">
+              <h1>
+                <span className="spaced-word">Réinventez</span>
+                <span className="gradient-text"> l'e-sport</span>
+                <span className="spaced-word">avec</span>
+                <br />
+                <span className="gradient-text">l'inclusivité</span>
+              </h1>
+              <img className="imgLanding" src={imgLanding} alt="Landing" />
+              <h2 className="landing-text-h2">
+                Ouvrez la voie à une nouvelle ère de <br />
+                compétition équitable.
+              </h2>
+              <Link to="/auth/register">
+                <button className="features try">Essayer gratuitement</button>
+              </Link>
+            </section>
+          </FadeInSection>
           <h2 className="actualite-esport">
             <span className="gradient-text ">Toute l'actualité e-sport</span>
           </h2>
@@ -156,19 +158,21 @@ export default function Home() {
                 </div>
               ))}
             </div>
-          </section> 
+          </section>
           <FadeInSection>
-          <section className="join-us-section">
-  <div className="join-us-container">
-    <div className="join-us-image-wrapper">
-     <img src={ending} alt="Join us" className="join-us-image" />
-      <Link to="/auth/register">
-        <button className="features try join-us-button">Rejoignez-nous</button>
-      </Link>
-    </div>
-  </div>
-</section>
-</FadeInSection>
+            <section className="join-us-section">
+              <div className="join-us-container">
+                <div className="join-us-image-wrapper">
+                  <img src={ending} alt="Join us" className="join-us-image" />
+                  <Link to="/auth/register">
+                    <button className="features try join-us-button">
+                      Rejoignez-nous
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </section>
+          </FadeInSection>
         </main>
         <footer className="footer">
           <div className="img-socials-container">
