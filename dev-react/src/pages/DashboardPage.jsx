@@ -3,6 +3,7 @@ import "../styles/sidebar.css";
 import { AiOutlineHome, AiOutlineTeam } from "react-icons/ai";
 import { IoIosCall, IoMdCalendar } from "react-icons/io";
 import { IoStatsChart } from "react-icons/io5";
+import { CiLock } from "react-icons/ci";
 
 import { CiLogout } from "react-icons/ci";
 
@@ -40,7 +41,8 @@ function Dashboard() {
 								className={({ isActive }) =>
 									isActive ? "sidebar-link active" : "sidebar-link"
 								}>
-								<IoStatsChart className="icons" /> Jeux vidéos
+								<CiLock className="icons italicVideo" />{" "}
+								<p className="italicVideo">Jeux vidéos</p>
 							</NavLink>
 						</li>
 						<li>
