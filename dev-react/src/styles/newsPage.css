@@ -46,7 +46,8 @@ body {
 
 .pArticleOthers,
 .pArticleMain {
-	font-size: 0.9rem;
+	font-size: 1.2em;
+	line-height: 2;
 }
 
 .aside {
