@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "../styles/sidebar.css";
-import logoSrc from "../assets/Biskeep.png";
+import logoSrc from "../assets/biskeep.png";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineTeam } from "react-icons/ai";
 import { IoStatsChartSharp } from "react-icons/io5";

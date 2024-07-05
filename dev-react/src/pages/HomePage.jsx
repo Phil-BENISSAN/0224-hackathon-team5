@@ -5,10 +5,15 @@ import "../styles/header.css";
 import "../styles/footer.css";
 import data from "../data/actu.json";
 import FadeInSection from "../components/FadeInSection";
-
+import blackLogoSrc from "../assets/biskeep.png";
 import logoSrc from "../assets/BiskeepWhite.png";
 import imgLanding from "../assets/landing.png";
 import gozen from "../assets/gozen.webp";
+import fnac from "../assets/fnac.png";
+import adidas from "../assets/adidas2.png";
+import intel from "../assets/intel.png";
+import redbull from "../assets/redbull.png";
+import sponsors from "../assets/sponsors.png";
 
 export default function Home() {
   const article = data["0"];
@@ -18,7 +23,7 @@ export default function Home() {
         <div className="blur-circle"></div>
         <header className="header">
           <Link className="logo" to="/">
-            Biskeep
+            <img src={blackLogoSrc} alt="" />
           </Link>
           <ul className="onglet">
             <Link to="/auth/login" className="link">
@@ -36,32 +41,37 @@ export default function Home() {
           </ul>
         </header>
         <main>
-          <section className="landing-page">
-            <h1>
-              <span className="spaced-word">Réinventez</span>
-              <span className="gradient-text"> l'e-sport</span>
-              <span className="spaced-word">avec</span>
-              <br />
-              <span className="gradient-text">l'inclusivité</span>
-            </h1>
-            <img className="imgLanding" src={imgLanding} alt="" />
-            <h2 className="landing-text-h2">
-              Ouvrez la voie à une nouvelle ère de <br />
-              compétition équitable.
-            </h2>
-            <Link to="/auth/register">
-              <button className="features try">Essayer gratuitement</button>
-            </Link>
+          <FadeInSection>
+            <section className="landing-page">
+              <h1>
+                <span className="spaced-word">Réinventez</span>
+                <span className="gradient-text"> l'e-sport</span>
+                <span className="spaced-word">avec</span>
+                <br />
+                <span className="gradient-text">l'inclusivité</span>
+              </h1>
+              <img className="imgLanding" src={imgLanding} alt="" />
+              <h2 className="landing-text-h2">
+                Ouvrez la voie à une nouvelle ère de <br />
+                compétition équitable.
+              </h2>
+              <Link to="/auth/register">
+                <button className="features try">Essayer gratuitement</button>
+              </Link>
+            </section>
+          </FadeInSection>
+          <h2 className="actualite-esport">
+            <span className="gradient-text ">Toute l'actualité e-sport</span>
+          </h2>
+          <section className="actu-section-homepage">
+            <img className="" src={gozen} alt={article.title} />
+            <h2 className="h2-homepage">{article.title}</h2>
+            <p className="p-homepage">
+              Retrouvez les dernieres nouvelles et les événements en temps réel
+            </p>
           </section>
           <FadeInSection>
-            <section className="actu-section-homepage">
-              <h2>
-                <span className="gradient-text ">Toute l'actualité e-sport</span>
-              </h2>
-              <img className="" src={gozen} alt={article.title} />
-              <h2 className="h2ArticleMain">{article.title}</h2>
-              <p className="pArticleMain">{article.description}</p>
-            </section>
+            <img src={sponsors} alt="" />
           </FadeInSection>
         </main>
         <footer className="">
