@@ -1,12 +1,18 @@
-import { Outlet } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import "../styles/sidebar.css";
+<<<<<<< HEAD
 import logoSrc from "../assets/biskeep.png";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineTeam } from "react-icons/ai";
 import { IoStatsChartSharp } from "react-icons/io5";
 import { IoIosCall } from "react-icons/io";
 import { IoMdCalendar } from "react-icons/io";
+=======
+import { AiOutlineHome, AiOutlineTeam } from "react-icons/ai";
+import { IoIosCall, IoMdCalendar } from "react-icons/io";
+import { IoStatsChart } from "react-icons/io5";
+
+>>>>>>> e22a0c3dc524e6cf014b2bdebf0525b49cfb5442
 import { CiLogout } from "react-icons/ci";
 
 function Dashboard() {
@@ -19,39 +25,62 @@ function Dashboard() {
 				<nav className="sidebar-nav">
 					<ul>
 						<li>
-							<Link to="/dashboard/actus" className="sidebar-link">
+							<NavLink
+								to="/dashboard/actus"
+								className={({ isActive }) =>
+									isActive ? "sidebar-link active" : "sidebar-link"
+								}>
 								<AiOutlineHome className="icons" />
 								Accueil
-							</Link>
+							</NavLink>
 						</li>
 						<li>
-							<Link to="/dashboard/teamsRank" className="sidebar-link">
+							<NavLink
+								to="/dashboard/teamsRank"
+								className={({ isActive }) =>
+									isActive ? "sidebar-link active" : "sidebar-link"
+								}>
 								<AiOutlineTeam className="icons" /> Equipes
-							</Link>
+							</NavLink>
 						</li>
 						<li>
-							<Link to="/dashboard/stats" className="sidebar-link">
-								<IoStatsChartSharp className="icons" /> Statistiques
-							</Link>
+							<NavLink
+								to="/dashboard/stats"
+								className={({ isActive }) =>
+									isActive ? "sidebar-link active" : "sidebar-link"
+								}>
+								<IoStatsChart className="icons" /> Statistiques
+							</NavLink>
 						</li>
-
 						<li>
-							<Link to="/dashboard/events" className="sidebar-link">
+							<NavLink
+								to="/dashboard/events"
+								className={({ isActive }) =>
+									isActive ? "sidebar-link active" : "sidebar-link"
+								}>
 								<IoMdCalendar className="icons" /> Events
-							</Link>
+							</NavLink>
 						</li>
 						<li>
-							<Link to="/dashboard/about" className="sidebar-link">
+							<NavLink
+								to="/dashboard/about"
+								className={({ isActive }) =>
+									isActive ? "sidebar-link active" : "sidebar-link"
+								}>
 								<IoIosCall className="icons" /> A propos
-							</Link>
+							</NavLink>
 						</li>
 					</ul>
 				</nav>
 				<div className="sidebar-footer">
-					<Link to="/" className="sidebar-link">
+					<NavLink
+						to="/"
+						className={({ isActive }) =>
+							isActive ? "sidebar-link active" : "sidebar-link"
+						}>
 						<CiLogout className="icons" />
 						<p className="paragraphSidebar">Se déconnecter</p>
-					</Link>
+					</NavLink>
 				</div>
 			</div>
 			<Outlet />

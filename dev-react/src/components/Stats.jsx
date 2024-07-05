@@ -61,6 +61,13 @@ export default function Stats() {
 		setSelectedIndex(index);
 	};
 
+	const totalHomme =
+		currentData.find((item) => item.name === "Homme")?.value || 0;
+	const totalFemme =
+		currentData.find((item) => item.name === "Femme")?.value || 0;
+	const total = totalHomme + totalFemme;
+	const parite = total ? ((totalFemme / total) * 100).toFixed(2) : 0;
+
 	return (
 		<main>
 			<section className="big-section-stats">
@@ -77,9 +84,18 @@ export default function Stats() {
 							</div>
 						))}
 					</div>
-					<div className="statsGridTop1">2</div>
-					<div className="statsGridTop2">3</div>
-					<div className="statsGridTop3">4</div>
+					<div className="statsGridTop1">
+						<p>Homme</p>
+						<p>{totalHomme}%</p>
+					</div>
+					<div className="statsGridTop2">
+						<p>Femme</p>
+						<p>{totalFemme}%</p>
+					</div>
+					<div className="statsGridTop3">
+						<p>Parité</p>
+						<p>{parite}%</p>
+					</div>
 					<div className="statsGridGraph">
 						<div style={{ width: "100%", height: 780 }}>
 							<ResponsiveContainer>

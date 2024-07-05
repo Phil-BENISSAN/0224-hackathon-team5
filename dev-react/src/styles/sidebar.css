@@ -23,11 +23,6 @@
 	width: 80%;
 }
 
-.sidebar-nav ul {
-	list-style: none;
-	transform: translateX(-10px);
-}
-
 .sidebar-nav li {
 	margin: 20px 0;
 }
@@ -79,4 +74,8 @@
 .paragraphSidebar {
 	font-size: 0.7em;
 	font-weight: 600;
+}
+
+.sidebar-link.active {
+	background-color: #ffffff; /* Arrière-plan blanc pour le lien actif */
 }

@@ -43,7 +43,7 @@
 }
 .statsGridGraph {
 	grid-area: 2 / 2 / 6 / 5;
-	background-color: #ffd9fa75;
+	background-color: #f1f1f1;
 	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
 		rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 	border-radius: 0.5rem;
@@ -75,4 +75,27 @@
 
 .piePie {
 	font-size: 3em;
+}
+
+.statsGridTop1,
+.statsGridTop2,
+.statsGridTop3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.statsGridTop1 p:nth-child(1),
+.statsGridTop2 p:nth-child(1),
+.statsGridTop3 p:nth-child(1) {
+	font-size: 2em;
+	margin-top: 5px;
+}
+
+.statsGridTop1 p:nth-child(2),
+.statsGridTop2 p:nth-child(2),
+.statsGridTop3 p:nth-child(2) {
+	font-size: 5em;
 }
