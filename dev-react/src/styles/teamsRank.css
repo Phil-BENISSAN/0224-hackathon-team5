@@ -7,7 +7,7 @@
 	padding: 2rem;
 }
 
-.teamDivCss .teamDivMap {
+.teamDivMap {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -18,39 +18,114 @@
 	box-shadow: 5px 6px 24px 0px rgba(0, 0, 0, 0.3);
 	border-radius: 1rem;
 	margin-bottom: 3rem;
+	cursor: pointer;
 }
 
-.teamDivCss .teamDivMap h3 {
+.teamDivMap h3 {
 	font-size: 2em;
 }
 
-.teamDivCss .teamDivMap:hover {
-	background-color: #ffb0f5;
+.teamDivMap:hover {
+	color: white;
+	transition: all 0.3s ease-in-out;
+	background: rgb(238, 83, 218);
+	background: linear-gradient(
+		235deg,
+		rgba(238, 83, 218, 1) 0%,
+		rgba(234, 95, 100, 1) 100%
+	);
 	transform: scale(0.95);
-	transition: all 0.2s ease-in-out;
 }
 
-.teamDivCss .teamDivMap .teamImg {
+.teamImg {
 	width: 5rem;
 	height: 5rem;
 }
 
-.displayCardTeam {
+.modal {
 	position: fixed;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	top: 0;
 	left: 0;
-	height: 100svh;
+	height: 100vh;
 	width: 100%;
-	background-color: rgb(85, 85, 85, 70%);
+	background-color: rgba(85, 85, 85, 0.7);
 }
 
-.displayCardTeam .displayCardTeamDiv {
-	padding: 20rem;
+.modal-content {
+	align-items: center;
+	margin: 0 25rem;
+	padding: 2rem 5rem;
+	border-radius: 1rem;
+	background: rgb(238, 83, 218);
+	background: linear-gradient(
+		235deg,
+		rgba(238, 83, 218, 1) 0%,
+		rgba(234, 95, 100, 1) 100%
+	);
+}
+
+.modalTeamImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	gap: 4rem;
+}
+
+.modalTeamImg h2 {
+	font-size: 3em;
+	color: white;
+}
+
+.modalTeamImg img {
+	width: 8rem;
+	height: 8rem;
+}
+
+.displayCardTeamDiv {
+	padding: 2rem;
 	width: 25%;
-	margin-left: 15rem;
 	border-radius: 2rem;
 	background-color: #ffb0f5;
+}
+
+.modalText {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-top: 5rem;
+	width: 100%;
+}
+
+.modalText p {
+	font-size: 1.4em;
+	color: black;
+}
+
+.modalText p:nth-child(1),
+.modalText p:nth-child(2),
+.modalText p:nth-child(3) {
+	font-weight: 700;
+}
+
+.modalText p:nth-child(4) {
+	margin-top: 5rem;
+	line-height: 1.9;
+}
+
+.close-button {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+	color: black;
+	text-decoration: none;
 }
