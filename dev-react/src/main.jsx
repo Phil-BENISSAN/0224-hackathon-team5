@@ -13,6 +13,8 @@ import Dashboard from "./pages/DashboardPage.jsx";
 import GamesRank from "./components/GamesRank";
 import TeamsRank from "./components/TeamsRank";
 import Stats from "./components/Stats";
+import Event from "./components/Event.jsx";
+import About from "./components/About.jsx";
 
 const router = createBrowserRouter([
 	{
@@ -59,6 +61,14 @@ const router = createBrowserRouter([
 					{
 						path: "teamsrank",
 						element: <TeamsRank />,
+					},
+					{
+						path: "events",
+						element: <Event />,
+					},
+					{
+						path: "about",
+						element: <About />,
 					},
 				],
 			},
