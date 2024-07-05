@@ -326,3 +326,7 @@ h1 {
 	color: #ee53da;
 	font-weight: 700;
 }
+
+.boulbi {
+	transform: translateY(14px);
+}

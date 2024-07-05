@@ -94,7 +94,7 @@ export default function Home() {
 						<section className="landing-page">
 							<h1>
 								<span className="spaced-word">Réinventez</span>
-								<span className="gradient-text"> l'e-sport</span>
+								<span className="gradient-text boulbi"> l'e-sport</span>
 								<span className="spaced-word">avec</span>
 								<br />
 								<span className="gradient-text">l'inclusivité</span>
