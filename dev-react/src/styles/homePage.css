@@ -315,3 +315,14 @@ h1 {
 .featureNav {
 	color: black;
 }
+
+.reviewProofDiv {
+	display: flex;
+	align-items: center;
+	transform: translateY(50px);
+}
+
+.reviewProofDiv span {
+	color: #ee53da;
+	font-weight: 700;
+}
