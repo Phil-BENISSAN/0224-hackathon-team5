@@ -311,3 +311,7 @@ h1 {
 .join-us-button:hover {
 	background-color: #e91e63; /* Ajustez cette valeur pour la couleur de survol */
 }
+
+.featureNav {
+	color: black;
+}

@@ -65,8 +65,7 @@ export default function Stats() {
 		currentData.find((item) => item.name === "Homme")?.value || 0;
 	const totalFemme =
 		currentData.find((item) => item.name === "Femme")?.value || 0;
-	const total = totalHomme + totalFemme;
-	const parite = total ? ((totalFemme / total) * 100).toFixed(2) : 0;
+	const parite = Math.floor(Math.random() * 13) + 1;
 
 	return (
 		<main>
@@ -93,7 +92,7 @@ export default function Stats() {
 						<p>{totalFemme}%</p>
 					</div>
 					<div className="statsGridTop3">
-						<p>Parité</p>
+						<p>Croissance</p>
 						<p>{parite}%</p>
 					</div>
 					<div className="statsGridGraph">
