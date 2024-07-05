@@ -54,10 +54,7 @@ const router = createBrowserRouter([
 						path: "gamesrank",
 						element: <GamesRank />,
 					},
-					{
-						path: "stats",
-						element: <Stats />,
-					},
+					
 					{
 						path: "teamsrank",
 						element: <TeamsRank />,
@@ -65,6 +62,10 @@ const router = createBrowserRouter([
 					{
 						path: "events",
 						element: <Event />,
+					},
+					{
+						path: "stats",
+						element: <Stats />,
 					},
 					{
 						path: "about",

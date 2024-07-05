@@ -31,7 +31,16 @@ function Dashboard() {
 								className={({ isActive }) =>
 									isActive ? "sidebar-link active" : "sidebar-link"
 								}>
-								<AiOutlineTeam className="icons" /> Equipes
+								<AiOutlineTeam className="icons" /> Structures
+							</NavLink>
+						</li>
+						<li>
+							<NavLink
+								to="/dashboard/gamesRank"
+								className={({ isActive }) =>
+									isActive ? "sidebar-link active" : "sidebar-link"
+								}>
+								<IoStatsChart className="icons" /> Jeux vidéos
 							</NavLink>
 						</li>
 						<li>
