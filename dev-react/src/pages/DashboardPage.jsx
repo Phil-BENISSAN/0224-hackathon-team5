@@ -1,18 +1,9 @@
 import { Outlet, NavLink } from "react-router-dom";
 import "../styles/sidebar.css";
-<<<<<<< HEAD
-import logoSrc from "../assets/biskeep.png";
-import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineTeam } from "react-icons/ai";
-import { IoStatsChartSharp } from "react-icons/io5";
-import { IoIosCall } from "react-icons/io";
-import { IoMdCalendar } from "react-icons/io";
-=======
 import { AiOutlineHome, AiOutlineTeam } from "react-icons/ai";
 import { IoIosCall, IoMdCalendar } from "react-icons/io";
 import { IoStatsChart } from "react-icons/io5";
 
->>>>>>> e22a0c3dc524e6cf014b2bdebf0525b49cfb5442
 import { CiLogout } from "react-icons/ci";
 
 function Dashboard() {
