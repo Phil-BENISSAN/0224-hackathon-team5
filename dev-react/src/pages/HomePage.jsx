@@ -66,16 +66,10 @@ export default function Home() {
           </Link>
           <ul className="onglet">
             <Link to="/auth/login" className="link">
-              <li className="features">Features</li>
-            </Link>
-            <Link to="/auth/login" className="link">
-              <li className="features">Features</li>
-            </Link>
-            <Link to="/auth/login" className="link">
               <li className="features">Connexion</li>
             </Link>
             <Link to="/auth/register" className="link">
-              <p className="features try">Essayer gratuitement</p>
+              <p className="features try">S'inscrire</p>
             </Link>
           </ul>
         </header>
@@ -95,7 +89,7 @@ export default function Home() {
                 compétition équitable.
               </h2>
               <Link to="/auth/register">
-                <button className="features try">Essayer gratuitement</button>
+                <button className="features try">Commencez dès maintenant</button>
               </Link>
             </section>
           </FadeInSection>

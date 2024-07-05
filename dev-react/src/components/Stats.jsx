@@ -10,13 +10,13 @@ import {
 } from "recharts";
 
 const data1 = [
-	{ name: "Homme", value: 67 },
+	{ name: "Homme", value: 77 },
 	{ name: "Femme", value: 33 },
 ];
 
 const data2 = [
-	{ name: "Homme", value: 45 },
-	{ name: "Femme", value: 55 },
+	{ name: "Homme", value: 82 },
+	{ name: "Femme", value: 18 },
 ];
 
 const data3 = [
@@ -25,28 +25,28 @@ const data3 = [
 ];
 
 const data4 = [
-	{ name: "Homme", value: 50 },
-	{ name: "Femme", value: 50 },
+	{ name: "Homme", value: 98 },
+	{ name: "Femme", value: 2 },
 ];
 
 const data5 = [
-	{ name: "Homme", value: 60 },
-	{ name: "Femme", value: 40 },
+	{ name: "Homme", value: 80 },
+	{ name: "Femme", value: 20 },
 ];
 
 const data6 = [
-	{ name: "Homme", value: 30 },
-	{ name: "Femme", value: 70 },
+	{ name: "Homme", value: 72 },
+	{ name: "Femme", value: 28 },
 ];
 
 const data7 = [
-	{ name: "Homme", value: 55 },
-	{ name: "Femme", value: 45 },
+	{ name: "Homme", value: 87 },
+	{ name: "Femme", value: 13 },
 ];
 
 const data8 = [
-	{ name: "Homme", value: 95 },
-	{ name: "Femme", value: 5 },
+	{ name: "Homme", value: 84 },
+	{ name: "Femme", value: 16 },
 ];
 
 const dataSets = [data1, data2, data3, data4, data5, data6, data7, data8];
