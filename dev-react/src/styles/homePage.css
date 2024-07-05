@@ -26,10 +26,10 @@
 	overflow: hidden;
 }
 
-.landing-text-h2 {
+/* .landing-text-h2 {
 	margin-bottom: 1rem;
 	font-weight: 400;
-}
+} */
 
 .imgLanding {
 	position: absolute;
@@ -42,8 +42,9 @@
 
 .spaced-word,
 .gradient-text {
-	display: inline-block;
+	/* display: inline-block; */
 	margin-right: 1rem; /* Adjust this value to increase or decrease word spacing */
+	transform: translateY(14px);
 }
 
 h1 {
