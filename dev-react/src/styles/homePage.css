@@ -44,7 +44,6 @@
 .gradient-text {
 	/* display: inline-block; */
 	margin-right: 1rem; /* Adjust this value to increase or decrease word spacing */
-	transform: translateY(14px);
 }
 
 h1 {

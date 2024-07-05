@@ -104,7 +104,7 @@ export default function Home() {
 								Ouvrez la voie à une nouvelle ère de <br />
 								compétition équitable.
 							</h2>
-							<Link to="/auth/register">
+							<Link to="/auth/register" className="tryBtnHome">
 								<button className="features try">
 									Commencez dès maintenant
 								</button>
