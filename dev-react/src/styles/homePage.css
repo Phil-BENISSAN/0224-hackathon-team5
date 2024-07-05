@@ -315,3 +315,9 @@ h1 {
 .featureNav {
 	color: black;
 }
+
+
+.bonjour-adrien {
+	display: flex;
+	justify-content: center;
+}
