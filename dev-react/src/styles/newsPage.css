@@ -8,6 +8,7 @@ body {
 	width: 100%;
 	padding: 2rem 0 0 0rem;
 	justify-content: space-between;
+	overflow-x: hidden;
 }
 
 .big-section {
