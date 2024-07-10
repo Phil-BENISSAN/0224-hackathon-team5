@@ -5,7 +5,7 @@ import "../styles/header.css";
 import "../styles/footer.css";
 import FadeInSection from "../components/FadeInSection";
 import Loader from "../components/Loader"; // Assure-toi que ce composant existe
-import blackLogoSrc from "../assets/Biskeep.png";
+import blackLogoSrc from "../assets/biskeep.png";
 import logoSrc from "../assets/BiskeepWhite.png";
 import imgLanding from "../assets/landing.png";
 import gozen from "../assets/gozen.webp";
